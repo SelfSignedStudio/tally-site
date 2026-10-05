@@ -19,19 +19,19 @@
 <body>
 <main>
   <h1>Tally Privacy Policy</h1>
-  <p class="meta">Effective 4 October 2026</p>
+  <p class="meta">Effective 5 October 2026</p>
 
-  <p>Tally is an Android app for logging meals. You type what you ate (or add a photo), the app asks Claude, an AI model made by Anthropic, for an estimate of its calories and macronutrients, and you decide whether to save it to Health Connect. This policy explains what data the app handles and where it goes.</p>
+  <p>Tally is an Android app for logging meals. You type what you ate (or add a photo), the app asks Gemini, an AI model made by Google, for an estimate of its calories and macronutrients, and you decide whether to save it to Health Connect. This policy explains what data the app handles and where it goes.</p>
 
   <h2>What leaves your phone</h2>
-  <p>When you ask for an estimate, Tally sends the following to Anthropic's API (api.anthropic.com), and nowhere else:</p>
+  <p>When you ask for an estimate, Tally sends the following to Google's Gemini API (generativelanguage.googleapis.com), and nowhere else:</p>
   <ul>
     <li>the meal description you typed;</li>
     <li>a photo, if you added one. Before it is sent, it is resized and re-encoded, which removes location and other embedded details;</li>
     <li>the date and time of the meal, and the names and nutrition of any of your saved "usual meals" that the description mentions.</li>
   </ul>
-  <p>Each request is made with the Anthropic API key you entered in the app. Usage is billed to the Anthropic account that issued that key. That may be you, or the person who invited you to Tally. That account's owner can see usage and costs for the key in Anthropic's Console. Anthropic processes requests under its own commercial terms and privacy policy.</p>
-  <p>For restaurants and packaged products, Claude may search the web for published nutrition information. Those searches are run by Anthropic, not by your phone.</p>
+  <p>Each request is made with the Gemini API key you entered in the app. Usage is billed to the Google account and project that issued that key. That may be you, or the person who invited you to Tally. The project's owner can see usage and costs for the key in Google AI Studio. Google processes requests under the Gemini API terms: for a key with billing turned on, Google says it does not use requests to improve its products; for a free-tier key, Google may use them to improve its products, and people at Google may review them.</p>
+  <p>When you ask Tally to look up a restaurant or packaged product, Gemini searches the web with Google Search for its published nutrition. Those searches are run by Google, not by your phone. To show where published numbers came from, the app asks Google where a search result's link leads, without opening the page itself. Nothing is looked up unless you ask.</p>
 
   <h2>Health Connect</h2>
   <p>With your permission, Tally writes each meal you confirm to Android Health Connect as nutrition records (meal type, time, calories, protein, carbohydrate and fat for each item). It writes only when you tap Log. It reads daily nutrition totals for the past week, including what other apps saved, to show your totals and past days (you can stop other apps' totals counting in Settings). When you choose Earlier meals in Settings, it also reads past nutrition records to find meals an earlier version of Tally saved, and adds those meals to its history on your phone; other apps' records read this way are not kept. Tally does not send Health Connect data anywhere and does not use it for advertising. You can revoke its access at any time in Health Connect.</p>
@@ -41,7 +41,7 @@
     <li>A copy of the meals you logged and the "usual meals" you saved, so the app can show your history and reuse them.</li>
     <li>Published nutrition for branded items you logged, kept for up to 90 days so they don't have to be looked up again.</li>
     <li>Your settings: optional daily goals, and a count of API calls made from this phone.</li>
-    <li>Your Anthropic API key, encrypted with a key held in Android's hardware-backed Keystore. After you save it, the app shows only its last four characters.</li>
+    <li>Your Gemini API key, encrypted with a key held in Android's hardware-backed Keystore. After you save it, the app shows only its last four characters.</li>
   </ul>
   <p>Photos are kept in memory only: while an estimate is made and, if you close the entry panel before logging, for up to 30 minutes so you can pick up where you left off. They are never saved to storage.</p>
 
@@ -49,7 +49,7 @@
   <p>Your logged meals, usual meals, cached brand nutrition and settings are included in Android's own backup to your Google account, if backup is turned on for your phone, so a new phone can restore them. Your API key is excluded from backup and from device-to-device transfer. After a restore, the app asks for the key again.</p>
 
   <h2>What Tally does not do</h2>
-  <p>There is no Tally server and no account. The app contains no analytics, advertising or tracking code, and it sends nothing to the developer. Apart from your requests to Anthropic, the only links it opens are pages you choose to open in your browser (such as a nutrition source or Anthropic's Console).</p>
+  <p>There is no Tally server and no account. The app contains no analytics, advertising or tracking code, and it sends nothing to the developer. Apart from your requests to Google's Gemini API, the only links it opens are pages you choose to open in your browser (such as a nutrition source or Google AI Studio).</p>
 
   <h2>Deleting your data</h2>
   <p>Deleting a meal in Tally removes it from the app and from Health Connect. Removing the API key in Settings wipes it from the phone. Uninstalling Tally deletes everything it stored on the phone. Records it wrote to Health Connect stay there until you delete them in Health Connect. To delete data from a Google backup, manage backups in your Google account.</p>
