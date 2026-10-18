@@ -1,0 +1,15 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.selfsigned.tally",
+      "sha256_cert_fingerprints": [
+        "61:25:50:A1:9B:BB:17:DD:F2:35:AC:A9:62:F8:3A:17:DF:12:86:D7:43:5E:65:6D:B5:44:DE:57:63:D7:95:8C",
+        "42:1C:F2:5B:C1:E9:16:D6:41:AE:BC:9F:D3:7E:AF:8A:00:E1:4D:1C:57:B3:C9:E4:C2:FE:23:26:B0:59:73:5A",
+        "91:C4:7C:A2:AA:D4:B6:5E:80:45:C9:E4:AE:D9:EE:B1:10:F3:EF:D8:9D:9E:8B:3D:A5:5F:63:96:F3:7E:62:7C",
+        "5C:4B:E9:39:C6:5E:DF:2D:2F:EF:73:32:D5:20:14:16:64:A0:BD:5E:D8:35:02:3A:24:D3:C9:DC:18:55:C2:E0"
+      ]
+    }
+  }
+]
